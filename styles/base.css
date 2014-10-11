@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/*
+Taller UX - Módulo Diseño Visual
+by IXDA Mendoza
+----------------------------------------------------------------------------- */
+/* Includes
+----------------------------------------------------------------------------- */
+/* Variables
+----------------------------------------------------------------------------- */
+/* Base styles
+----------------------------------------------------------------------------- */
+/* line 25, ../scss/base.scss */
+html {
+  position: relative;
+  height: 100%;
+}
+
+/* line 30, ../scss/base.scss */
+body {
+  background: #fff;
+  font-family: 'Lato', sans-serif;
+  color: #333333;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 39, ../scss/base.scss */
+.page-row {
+  display: table-row;
+  height: 1px;
+}
+
+/* line 44, ../scss/base.scss */
+.page-row-expanded {
+  height: 100%;
+}
+
+/* line 46, ../scss/base.scss */
+.locations-list {
+  padding-bottom: 30px;
+}
+
+/* line 50, ../scss/base.scss */
+footer {
+  height: 110px;
+}
+
+/* line 54, ../scss/base.scss */
+.branding {
+  display: none;
+}
+
+/* .row {
+    background-color: #fafafa;
+    border-bottom: 1px dotted #ddd;
+} */
